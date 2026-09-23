@@ -1,2 +1,10 @@
+# Content Signals Policy: https://contentsignals.org/
+# search: building a search index and providing search results
+# ai-input: inputting content into AI models (e.g. RAG, generative answers)
+# ai-train: training or fine-tuning AI models
+
 User-agent: *
+Content-Signal: search=yes, ai-train=no, ai-input=yes
 Disallow: /appartment/
+
+Sitemap: https://ravndalstudio.com/sitemap.xml
