@@ -1,0 +1,9 @@
+name = "ravndalstudio-markdown-for-agents"
+main = "src/index.ts"
+compatibility_date = "2025-03-01"
+
+# Route this worker on the production hostname(s). Adjust zone_name if your zone differs.
+routes = [
+  { pattern = "www.ravndalstudio.com/*", zone_name = "ravndalstudio.com" },
+  { pattern = "ravndalstudio.com/*", zone_name = "ravndalstudio.com" },
+]
